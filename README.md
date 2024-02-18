@@ -6,7 +6,7 @@ This is a simple Hotel Booking API built using Java 17 and Spring Boot 3.x.x. It
 
 - Java 17
 - Maven
-- [Spring Boot 3.x.x](https://spring.io/projects/spring-boot)
+- Spring Boot 3.2.2
 
 ## Getting Started
 
@@ -128,5 +128,5 @@ This is a simple Hotel Booking API built using Java 17 and Spring Boot 3.x.x. It
 
 ## Configuration
 
-- The application uses an H2 in-memory database by default. You can modify the `application.yaml` file to configure other databases.
+- The application uses an H2 in-memory database by default. You can modify the `application.properties` file to configure other databases.
 

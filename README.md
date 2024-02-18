@@ -77,8 +77,7 @@ This is a simple Hotel Booking API built using Java 17 and Spring Boot 3.x.x. It
         "hotelId": 202,
         "checkInDate": "2024-06-10",
         "checkOutDate": "2024-06-15"
-    },
-      // More bookings...
+    }
     ]
     ```
 
@@ -130,3 +129,5 @@ This is a simple Hotel Booking API built using Java 17 and Spring Boot 3.x.x. It
 
 - The application uses an H2 in-memory database by default. You can modify the `application.properties` file to configure other databases.
 
+## Swagger Documentation
+- **Endpoint:** `http://localhost:8080/swagger-ui/index.html`

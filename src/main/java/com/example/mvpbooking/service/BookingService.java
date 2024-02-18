@@ -40,6 +40,10 @@ public class BookingService {
 
         Booking existingBooking = bookingRepository.findById(bookingId)
                 .orElseThrow(() -> new RuntimeException("Booking not found"));
+        existingBooking.setUserId(updatedBooking.getUserId());
+        existingBooking.setHotelId(updatedBooking.getHotelId());
+        existingBooking.setCheckOutDate(updatedBooking.getCheckOutDate());
+        existingBooking.setCheckInDate(updatedBooking.getCheckInDate());
         bookingRepository.save(existingBooking);
     }
 }
